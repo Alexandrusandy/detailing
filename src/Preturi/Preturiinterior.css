@@ -1,0 +1,7 @@
+.preturi1{
+	display: grid;
+    grid-template-columns: 50% 50%;
+	 text-align: left;
+	 align-items: left;
+
+}
