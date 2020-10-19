@@ -41,8 +41,8 @@ function App() {
      <Route path='/Servicii' component={Servicii}/>
      <Route path='/Galerie' component={Galerie}/>
      <Route path='/Contact' component={Contact}/>
-    <Poza /> 
     </Switch>
+    <Poza /> 
       <Despre/>
       <Servicii/>
       
