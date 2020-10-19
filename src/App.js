@@ -12,7 +12,8 @@ import Servicii from './Servicii/Servicii';
 import Preturiinterior from './Preturi/Preturiinterior';
 import Galerie from './Galerie/Galerie';
 import Contact from './Contact/Contact';
-
+/*import Mapps from './Contact/Map';
+*/
 const particlesOptions = {
   particles: {
     number: {
@@ -41,9 +42,10 @@ function App() {
      <Route path='/Servicii' component={Servicii}/>
      <Route path='/Galerie' component={Galerie}/>
      <Route path='/Contact' component={Contact}/>
-    </Switch>
     <Poza /> 
+    </Switch>
       <Despre/>
+      {/*<Mapps/>*/}
       <Servicii/>
       
         </div>
