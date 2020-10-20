@@ -11,6 +11,7 @@ import Servicii from './Servicii/Servicii';
 import Preturiinterior from './Preturi/Preturiinterior';
 import Galerie from './Galerie/Galerie';
 import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 /*import Mapps from './Contact/Map';
 */
 const particlesOptions = {
@@ -46,6 +47,7 @@ function App() {
       <Despre/>
       {/*<Mapps/>*/}
       <Servicii/>
+      <Footer/>
       
         </div>
 
