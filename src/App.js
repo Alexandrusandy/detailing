@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 import Particles from 'react-particles-js';
 
 import Navigation from './Navbar/Navbar';
