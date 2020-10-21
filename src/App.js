@@ -37,16 +37,13 @@ function App() {
         />
     <div className="App"> 
     <Navigation />
-    <Switch>
-     <Route path='/Preturiinterior' component={Preturiinterior}/>
-     <Route path='/Servicii' component={Servicii}/>
-     <Route path='/Galerie' component={Galerie}/>
-     <Route path='/Contact' component={Contact}/>
-    <Poza /> 
-    </Switch>
+      <Poza /> 
       <Despre/>
       {/*<Mapps/>*/}
       <Servicii/>
+      <Galerie/>
+      <Preturiinterior/>
+      <Contact/>
       <Footer/>
       
         </div>

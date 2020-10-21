@@ -1,10 +1,10 @@
 import React from "react";
-import './Servicii.css';
+
 const Servicii = () => {
 	return(
 		<div className="flex flex-wrap pa1 ma1" id="ServiciiID">
 		<div>
-		<h1>Detailing Interior </h1>
+		<h1 className="shadow-1">Detailing Interior </h1>
 		<li>Curatare tapiterie auto si elemente din plastic</li>
 		<li>Aspirare mochete, scaune, bancheta, portbagaj si portiere</li>
 		<li>Curatare plafon, stalpi, bord, consola, fete usi, tapiterie, mocheta</li>
@@ -13,7 +13,7 @@ const Servicii = () => {
 		<li>Curatarea si hidratarea suprafetelor din plastic si cauciuc cu ajutorul unui dressing pe baza de apa </li>
 		<li>Curatare scrumiere</li>
 		</div>
-		<div><h1>Detailing Exterior</h1>
+		<div><h1 className="shadow-1">Detailing Exterior</h1>
 		<li>Curatare/spalare exterioara detaliata </li>
 		<li>Eliminare bitum/adeziv</li>
 		<li>Decontaminare cu argila blanda/agresiva</li>

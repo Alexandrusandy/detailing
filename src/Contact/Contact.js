@@ -18,7 +18,8 @@ const Contact=() =>{
     }
 
     return(
-        <div>
+        <div id="contact">
+        <h1 className="tc shadow-1">Contact</h1>
             <div className="">
             <div className=" pa2">
      <div className='dimensiune '>

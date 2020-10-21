@@ -2,7 +2,10 @@ import React from 'react';
 import './Galerie.css';
 const Galerie = () => {
 	return(
-		<div className='size ' >
+		<div id="galerie">
+		<h1 className='tc shadow-1'>Galerie Foto</h1>
+		<div className='size '>
+
 		<div className='ma3 grow shadow-5'>
 		  <img style={{paddingTop:'0px'}}alt='logo'src="https://autotreviso.ro/wp-content/uploads/2019/11/1-9.jpg"/>
  		 </div>
@@ -16,7 +19,7 @@ const Galerie = () => {
  		 <img style={{paddingTop:'0px'}}alt='logo'src="https://www.detailingspalatorie.ro/images/item/big/Detailing-Auto-Pascani-Pascani-591.jpg"/>
  		 </div>
 		</div>
-
+		</div>
 )
 }
 

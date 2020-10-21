@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavDropdown,Navbar,Nav, } from 'react-bootstrap';
 
 import { Link } from "react-scroll";
-import './Navbar.css';
+
 
 const Navigation = () => {
 	return(
@@ -18,28 +18,51 @@ const Navigation = () => {
     to="despre-noi"
     spy={true}
     smooth={true}
-    offset={-70}
+    offset={-240}
     duration={500}
 >
-      <Nav.Link href="/Pretu">Despre Noi</Nav.Link> </Link>
+      <Nav.Link href="/Despre">Despre Noi</Nav.Link> </Link>
        <Link
     activeClass="active"
     to="ServiciiID"
     spy={true}
     smooth={true}
-    offset={-70}
+    offset={-240}
     duration={500}>
       <Nav.Link activeClassName="active" href="/Servicii">Servicii</Nav.Link></Link>
-      <NavDropdown title="Preturi" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="./Preturiinterior">Detaiing Interior</NavDropdown.Item>     
-        <NavDropdown.Item href="./Preturi/Preturi.html">Detailing Exterior</NavDropdown.Item>
-      </NavDropdown>
+      <Link
+    activeClass="active"
+    to="galerie"
+    spy={true}
+    smooth={true}
+    offset={-240}
+    duration={500}
+>      <Nav.Link href="./Galerie/Galerie">Galerie Foto</Nav.Link>
+    </Link>
     </Nav>
     <Nav>
-      <Nav.Link href="./Galerie/Galerie">Galerie Foto</Nav.Link>
-      <Nav.Link  href="./Contact/Contact">
-        Contact
-      </Nav.Link>
+    <NavDropdown title="Preturi" id="collasible-nav-dropdown">
+       <Link
+    activeClass="active"
+    to="interior"
+    spy={true}
+    smooth={true}
+    offset={-240}
+    duration={500}
+>  
+<NavDropdown.Item href="./Preturiinterior">Detaiing Interior</NavDropdown.Item>   
+    </Link> 
+        <NavDropdown.Item href="./Preturi/Preturi.html">Detailing Exterior</NavDropdown.Item>
+      </NavDropdown>
+     <Link
+    activeClass="active"
+    to="contact"
+    spy={true}
+    smooth={true}
+    offset={-240}
+    duration={500}
+>      <Nav.Link  href="./Contact/Contact"> Contact</Nav.Link>
+</Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

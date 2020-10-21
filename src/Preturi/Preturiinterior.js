@@ -2,8 +2,8 @@ import React from 'react';
 import './Preturiinterior.css';
 const Preturiinterior = () => {
 	return(
-		<div className="">
-			<h1>Tarife curatenie interior </h1>
+		<div className="" id="interior">
+			<h1 className="tc shadow-2">Tarife curatenie interior </h1>
 			<div className="preturi1 ml2 ">
 		<div className="glow shadow-5">
 			<h4>Pachetul Standard :  </h4>
