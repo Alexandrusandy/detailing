@@ -13,9 +13,9 @@ const Footer =() =>{
        <div className="tc">
         <div>
        <a href="https://www.facebook.com/pages/category/Automotive--Aircraft---Boat/Oro-Detailing-Auto-108868777411760/"> 
-       <h2 class="fab fa-facebook text-white pr2 " ></h2></a>
+       <i class="fab fa-facebook text-white pr2 fa-3x " ></i></a>
         <a href="https://www.instagram.com/oro.detailing.auto/">
-        <h2 class="fab fa-instagram text-white"></h2></a>
+        <i class="fab fa-instagram text-white fa-3x"></i></a>
         </div>
        <div>
        <a href="tel:0729 129 751"><h5 class="fas fa-phone pa2 text-white">0766129751</h5></a>

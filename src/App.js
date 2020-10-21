@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {BrowserRouter,Route,Switch} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import Particles from 'react-particles-js';
 
 import Navigation from './Navbar/Navbar';
