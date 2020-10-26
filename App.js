@@ -30,7 +30,7 @@ function App() {
 
   return (
 
-<BrowserRouter basename="/directory-name">
+<BrowserRouter basename="/sec">
 
     <Particles className='particles'
           params={particlesOptions}
